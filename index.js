@@ -25,3 +25,7 @@ function prependDriver(name) {
   const driversUpdate2 = [name, ...drivers];
   return driversUpdate2;
 }
+
+function removeLastDriver() {
+  drivers.splice(0, drivers.length-1)
+}
